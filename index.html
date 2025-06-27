@@ -6,21 +6,38 @@
   <title>Tailwind Starter</title>
   <link href="output.css" rel="stylesheet">
 </head>
-<body>
+<body >
 
-  <nav class="flex">
-    <ul class="flex h-16  w-full bg-black space-x-4 items-center text-white   ">
+  
+   <nav class="fixed w-full bg-gradient-to-b from-black/70 to-transparent transition-all duration-300 z-50 px-8" id="navbar">
+  <div class="flex items-center h-16 text-white w-full">
 
-      <li><img src="/assets/images/Logonetflix.png" alt="logo" class="h-12 pl-8"></li>
-      <li>Home</li>
-      <li>Movies</li>
-      <li>Games</li>
-      <li>New & Popular</li>
-      <li>MyList</li>
-      <li>Browse by Languages</li>
+    <!-- Left nav items -->
+    <div class="flex items-center space-x-4">
+      <img src="/assets/images/Logonetflix.png" alt="logo" class="h-12" />
+      <span>Home</span>
+      <span>Movies</span>
+      <span>Games</span>
+      <span>New & Popular</span>
+      <span>MyList</span>
+      <span>Browse by Languages</span>
+    </div>
 
-    </ul>
+    <!-- Right nav items (shifted to the right using ml-auto) -->
+    <div class="flex items-center space-x-4 ml-auto"> 
+      <input type="text" id="input-box" placeholder=" Search movies,shows..." class="items-center hidden bg-white rounded px-2 py-1 text-black transition duration-300 focus:outline-none">
+      <img src="assets/icons/magnifying.png" alt="Search" class="h-6 cursor-pointer " id="Search" />
+      <span>Children</span>
+      <img src="assets/icons/notification.png" alt="Notification" class="h-6" />
+      <img src="assets/icons/account.png" alt="Account" class="h-7" />
+    </div>
+
+  </div>
+</nav>
   </nav>
+
+  <div class="h-[2000px] bg-gradient-to-b from-blue-800 to-black  bg-cover"></div>
   
 </body>
+<script src="script.js"></script>
 </html>
