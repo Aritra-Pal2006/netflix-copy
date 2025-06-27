@@ -562,24 +562,8 @@ video {
   z-index: 50;
 }
 
-.m-6 {
-  margin: 1.5rem;
-}
-
 .ml-auto {
   margin-left: auto;
-}
-
-.mt-32 {
-  margin-top: 8rem;
-}
-
-.mt-6 {
-  margin-top: 1.5rem;
-}
-
-.mt-8 {
-  margin-top: 2rem;
 }
 
 .flex {
@@ -610,52 +594,16 @@ video {
   height: 2000px;
 }
 
-.h-10 {
-  height: 2.5rem;
-}
-
-.h-14 {
-  height: 3.5rem;
-}
-
-.h-20 {
-  height: 5rem;
-}
-
-.h-\[250px\] {
-  height: 250px;
-}
-
-.h-\[600px\] {
-  height: 600px;
-}
-
 .w-full {
   width: 100%;
-}
-
-.w-\[352px\] {
-  width: 352px;
-}
-
-.w-\[500px\] {
-  width: 500px;
 }
 
 .cursor-pointer {
   cursor: pointer;
 }
 
-.flex-col {
-  flex-direction: column;
-}
-
 .items-center {
   align-items: center;
-}
-
-.justify-center {
-  justify-content: center;
 }
 
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
@@ -668,44 +616,9 @@ video {
   border-radius: 0.25rem;
 }
 
-.rounded-md {
-  border-radius: 0.375rem;
-}
-
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
-
-.bg-black\/80 {
-  background-color: rgb(0 0 0 / 0.8);
-}
-
-.bg-gray-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));
-}
-
-.bg-gray-800\/50 {
-  background-color: rgb(31 41 55 / 0.5);
-}
-
-.bg-red-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity, 1));
-}
-
-.bg-slate-500\/40 {
-  background-color: rgb(100 116 139 / 0.4);
-}
-
-.bg-transparent {
-  background-color: transparent;
 }
 
 .bg-gradient-to-b {
@@ -736,10 +649,6 @@ video {
   background-size: cover;
 }
 
-.p-2 {
-  padding: 0.5rem;
-}
-
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -755,65 +664,14 @@ video {
   padding-bottom: 0.25rem;
 }
 
-.pl-8 {
-  padding-left: 2rem;
-}
-
-.pl-44 {
-  padding-left: 11rem;
-}
-
-.pl-\[16px\] {
-  padding-left: 16px;
-}
-
-.pr-60 {
-  padding-right: 15rem;
-}
-
-.text-left {
-  text-align: left;
-}
-
-.font-sans {
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
-.placeholder-gray-400::-moz-placeholder {
-  --tw-placeholder-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-placeholder-opacity, 1));
-}
-
-.placeholder-gray-400::placeholder {
-  --tw-placeholder-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-placeholder-opacity, 1));
-}
-
-.placeholder-gray-400\/50::-moz-placeholder {
-  color: rgb(156 163 175 / 0.5);
-}
-
-.placeholder-gray-400\/50::placeholder {
-  color: rgb(156 163 175 / 0.5);
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 .transition {
@@ -834,13 +692,8 @@ video {
   transition-duration: 300ms;
 }
 
-.hover\:border-\[2px\]:hover {
-  border-width: 2px;
-}
-
-.hover\:border-red-500:hover {
-  --tw-border-opacity: 1;
-  border-color: rgb(239 68 68 / var(--tw-border-opacity, 1));
+body{
+  background-image: url(assets/images/ngback.jpg);
 }
 
 .focus\:outline-none:focus {
