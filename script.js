@@ -31,3 +31,7 @@ function reveal()
     }
 }
 
+function display(){
+    alert("button clicked!!");
+}
+
