@@ -13,20 +13,57 @@
     </header>
         </div class="z-50">
             <div class="flex justify-center">
-            <div class="mt-8 h-[600px] w-[500px] bg-black/80 flex justify-center rounded-md">
+            <div class="mt-8 h-[650px] w-full max-w-[500px] bg-black/80 flex justify-center rounded-md pb-8">
             <div class="w-[352px] flex flex-col justify-center items-center">
                 <h1 class=" font-bold font-sans text-white text-3xl pr-60 ">Sign In</h1>
-                <input class="hover:border-[2px] hover:border-red-500 h-14 w-full flex justify-center items-center mt-6 pl-[16px] text-left text-black placeholder-gray-400/50 bg-gray-800/50 rounded-md" type="text" placeholder="email or mobile number">
-                <input class="hover:border-[2px] hover:border-red-500 h-14 w-full flex justify-center items-center mt-6 pl-[16px] text-left text-black placeholder-gray-400 bg-gray-800/50 rounded-md" type="text" placeholder="password">
+                <input class="hover:border-[2px] hover:border-red-500 h-14 w-full flex justify-center items-center mt-6 pl-[16px] text-left text-black placeholder-gray-400/90 bg-gray-800/50 rounded-md" type="text" placeholder="email or mobile number">
+                <input class="hover:border-[2px] hover:border-red-500 h-14 w-full flex justify-center items-center mt-6 pl-[16px] text-left text-black placeholder-gray-400/90 bg-gray-800/50 rounded-md" type="text" placeholder="password">
                 <button class="h-10 w-full mt-6 text-white bg-red-500 rounded-md"  type="button"><a href="/index.html">Sign up</a></button>
                 <a class=" w-full m-6 flex justify-center text-white" >OR</a>
                 <button class="font-bold h-10 w-full text-white bg-slate-500/40 rounded-md" type="button">Use a sign in code</button>
-                <a href="#" class="mt-6 flex justify-center items-center text-white" >Forgot Password?</a>
+                <a href="#" class="underline hover:text-gray-400 mt-6  mb-2 flex justify-center items-center text-white" >Forgot Password?</a>
+                <div class=" h-10 w-full flex justify-start items-center">
+                    <input  type="checkbox" class="h-4 w-4 items-center hover:accent-gray-700">
+                    <label class=" ml-[5px] text-white">Remember Me</label>
+                </div>
+                <div class=" h-10 w-full flex flex-col justify-start items-start space-y-1">
+                    <div class="flex space-x-1">
+                        <a class=" text-white">New to netflix?</a>
+                        <a class=" cursor-pointer hover:underline text-white font-bold"> Sign up Now.</a>
+                    </div>
+                    <span class=" text-gray-500 text-[13px]">This page is protected by Google reCAPTCHA to ensure you're not a bot.</span>
+                    <a class="underline text-blue-700" href="#">Learn More.</a>
+                </div>
+            </div>
+                
             </div>
         </div>
         </div>
     <footer>
-        <div class=" mt-32 h-[250px] bg-gray-800"> </div>
+        <div class="h-full mt-32 bg-[#161616] pt-4 px-4 pb-6">
+        <!-- First Line -->
+        <div class="mb-4">
+            <a href="#" class="font-sans hover:underline text-md font-semibold text-white/70">Questions? Call 000-800-919-1743 (Toll-Free)</a>
+        </div>
+            <ul class="grid grid-cols-2 gap-x-4 gap-y-4 ml-2">
+             <li><a href="#" class=" text-white/70 text-sm hover:underline">FAQ</a></li>
+            <li><a href="#" class=" text-white/70 text-sm hover:underline">Help Centre</a></li>
+             <li><a href="#" class=" text-white/70 text-sm hover:underline">Terms of Use</a></li>
+            <li><a href="#" class=" text-white/70 text-sm hover:underline">Privacy</a></li>
+             <li><a href="#" class=" text-white/70 text-sm hover:underline">Cookie Preferences</a></li>
+             <li><a href="#" class=" text-white/70 text-sm hover:underline">Corporate Information</a></li>
+            </ul>
+             <div class="mt-4 ml-2 w-40">
+                <div class="relative inline-block w-full">
+                <span class="absolute left-2 top-1/2 -translate-y-1/2 text-white text-lg">🌐</span>
+                 <select class="appearance-none bg-transparent border border-gray-500 text-white text-sm pl-8 pr-6 py-2 rounded-sm w-full focus:outline-none focus:ring-1 focus:ring-white">
+                    <option style="color: black; background-color: white;">English</option>
+                     <option style="color:white; background-color: black;">हिन्दी</option>
+                 </select>
+                    <span class="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 text-white text-xs">▼</span>
+                </div>
+            </div>
+
     </footer>
 </body>
 <script src="script.js"></script>
