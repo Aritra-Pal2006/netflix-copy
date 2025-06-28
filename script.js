@@ -3,13 +3,13 @@ window.addEventListener('scroll',change);
 function change()
 {
     if(window.scrollY>5){
-        navbar.classList.remove('bg-transparent');
+        
         navbar.classList.add('bg-black');
+
     }
     else{
 
-        navbar.classList.remove('bg-black');
-        navbar.classList.add('bg-transparent');
+        navbar.className = "fixed w-full bg-gradient-to-b from-black/70 to-transparent text-white transition-all duration-300 z-50 px-8";
 
     }
 }
